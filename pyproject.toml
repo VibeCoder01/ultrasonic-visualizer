@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ultrasonic-visualizer"
+version = "0.1.0"
+description = "Live ultrasonic spectrum visualizer with interactive controls"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "numpy",
+  "matplotlib",
+  "sounddevice",
+]
+
+[project.scripts]
+ultrasonic-visualizer = "ultrasonic_visualizer:main"
+
+[tool.setuptools]
+py-modules = ["ultrasonic_visualizer"]
+
