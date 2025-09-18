@@ -52,4 +52,4 @@ Troubleshooting
 
 License
 -------
-TBD by repository owner.
+MIT License — see `LICENSE`.
